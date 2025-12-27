@@ -1,0 +1,19 @@
+{
+  "name": "wms-shared-auth",
+  "version": "1.0.0",
+  "description": "Shared authentication library for WMS Tools Suite",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["authentication", "jwt", "wms"],
+  "author": "WMS Development Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.0",
+    "dotenv": "^16.3.1"
+  }
+}

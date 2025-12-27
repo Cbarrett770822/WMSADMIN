@@ -1,5 +1,5 @@
-const { connectToDatabase } = require('../../../../wms-shared-auth/src/utils/db');
-const User = require('../../../../wms-shared-auth/src/models/User');
+const { connectToDatabase } = require('../../wms-shared-auth/src/utils/db');
+const User = require('../../wms-shared-auth/src/models/User');
 
 exports.handler = async (event) => {
   const headers = {

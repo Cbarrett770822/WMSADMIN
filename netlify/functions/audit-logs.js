@@ -1,5 +1,5 @@
-const { withAuth } = require('../../../../wms-shared-auth/src/middleware/withAuth');
-const { connectToDatabase } = require('../../../../wms-shared-auth/src/utils/db');
+const { withAuth } = require('../../wms-shared-auth/src/middleware/withAuth');
+const { connectToDatabase } = require('../../wms-shared-auth/src/utils/db');
 const mongoose = require('mongoose');
 
 const AuditLogSchema = new mongoose.Schema({

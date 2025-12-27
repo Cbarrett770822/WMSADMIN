@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
-const User = require('../../../../wms-shared-auth/src/models/User');
-const { generateToken } = require('../../../../wms-shared-auth/src/utils/jwt');
-const { connectToDatabase } = require('../../../../wms-shared-auth/src/utils/db');
+const User = require('../../wms-shared-auth/src/models/User');
+const { generateToken } = require('../../wms-shared-auth/src/utils/jwt');
+const { connectToDatabase } = require('../../wms-shared-auth/src/utils/db');
 
 exports.handler = async (event) => {
   const headers = {

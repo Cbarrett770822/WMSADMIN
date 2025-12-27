@@ -1,7 +1,7 @@
-const { withAuth } = require('../../../../wms-shared-auth/src/middleware/withAuth');
-const { connectToDatabase } = require('../../../../wms-shared-auth/src/utils/db');
-const { hashPassword } = require('../../../../wms-shared-auth/src/utils/password');
-const User = require('../../../../wms-shared-auth/src/models/User');
+const { withAuth } = require('../../wms-shared-auth/src/middleware/withAuth');
+const { connectToDatabase } = require('../../wms-shared-auth/src/utils/db');
+const { hashPassword } = require('../../wms-shared-auth/src/utils/password');
+const User = require('../../wms-shared-auth/src/models/User');
 
 async function handler(event, context, user) {
   const headers = {
