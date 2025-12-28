@@ -105,14 +105,6 @@ function Login({ onLogin }) {
             </Button>
           </form>
 
-          <Box sx={{ mt: 3, p: 2, bgcolor: '#f5f5f5', borderRadius: 1 }}>
-            <Typography variant="caption" display="block" gutterBottom>
-              <strong>Default Admin:</strong> admin@wms.com / admin123
-            </Typography>
-            <Typography variant="caption" display="block" color="text.secondary">
-              Only admin and super_admin roles can access this application
-            </Typography>
-          </Box>
         </Paper>
       </Container>
     </Box>
